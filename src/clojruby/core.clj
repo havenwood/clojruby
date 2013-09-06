@@ -4,5 +4,3 @@
 
 (defn dojruby [x]
   (. (ScriptingContainer.) runScriptlet x))
-
-(dojruby "puts 'hi'")
